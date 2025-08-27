@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+}
+header{
+    background-color: pink;
+    width: 100vw;
+    height: 80px;
+    position: fixed;
+    
+}
+header a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#header{
+    text-align: center;
+    margin: 30px;
+}
+#inicio{
+    min-height: 100vh;
+}
+#iniciotexto{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#informacoesinicio{
+    flex-direction: column;
+}
+#img1{
+    max-height: 100vh;
+    width: 500px;
+}
+#informacoesmim{
+    border: solid 3px pink;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#textosobremim{
+    display: flex;
+    flex-direction: column;
+    max-width: 50vw;
+
+}
+#fotomim{
+    display: flex;
+    justify-content: right;
+
+}
+#img2{
+    width: 500px;
+}

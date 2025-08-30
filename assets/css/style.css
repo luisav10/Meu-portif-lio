@@ -8,7 +8,7 @@ section{
     align-items: center;
 }
 header{
-    background-color: pink;
+    background-color: #FECDCD;
     width: 100vw;
     height: 80px;
     position: fixed;
@@ -16,12 +16,17 @@ header{
 }
 a{
     text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
 }
 header a{
     text-decoration: none;
     color: white;
     margin: 10px;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
 }
 #header{
     text-align: center;
@@ -29,12 +34,15 @@ header a{
 }
 #inicio{
     min-height: 100vh;
-    background-color: pink;
+    background-color: #FECDCD;
 }
 #inicio p{
     font-size: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 40vw;
+    width: 36vw;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
 }
 #iniciotexto{
     min-height: 100vh;
@@ -45,6 +53,21 @@ header a{
 #informacoesinicio{
     flex-direction: column;
 }
+#informacoesinicio button{
+    width: 18vw;
+    height: 8vh;
+    color: white;
+    background-color: #FBB4C1;
+    border-color: #FBB4C1;
+    border: none;
+    box-shadow: 5px 5px #F996B5;
+    transition: background 1s;
+}
+#informacoesinicio button:hover{
+    cursor: pointer;
+    background-color: #f8a9b8;
+    box-shadow: 5px 5px #f17fa3;
+}
 @font-face {
     font-family: porky;
     src: url(../fonte/PORKYS_.TTF);
@@ -53,10 +76,19 @@ h1{
     font-size: 70px;
     font-family: porky;
     margin: 0;
+    color: white;
+    text-shadow: 5px 5px #F996B5;
 }
 #img1{
     max-height: 100vh;
-    width: 600px;
+    width: 700px;
+}
+#img1:hover{
+    transform: rotate(15deg);
+    transition: rotate 5s;
+}
+#sobremim, #projetos{
+    background-color: #A3F4A3;
 }
 #informacoesmim{
     border: solid 3px pink;
@@ -107,18 +139,33 @@ h1{
     display: flex;
     justify-content: center;
 }
+#projetosmim img{
+    width: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 #cardprojeto{
     border: solid 3px black;
     width: 25vw;
     min-height: 60vh;
     margin: 20px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+#cardprojeto img{
+    margin-bottom: 60px;
+    border-radius: 5px;
 }
 footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: pink;
+    background-color: #FECDCD;
     height: 90px;
 }
 #botoesfooter{
